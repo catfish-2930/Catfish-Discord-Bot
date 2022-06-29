@@ -1,0 +1,136 @@
+{
+	"commands": {
+		"play": {
+			"joinVoiceChannel": "👍 **加入和连接到 ** <#{voiceChannel}>",
+			"noarg": "❌ You need to give me a URL or a Search term.",
+			"joinvc": "❌ 请加入语音频道",
+			"invc": "❌ You need to be in my voice channel to use this command!",
+			"searching": "🔎 **搜素歌曲: `{title}`**",
+			"notfound": "❌ **未找到歌曲!**",
+			"error": "❌ **错误: `{msg}`**",
+			"trackAdd": {
+				"description": ":thumbsup: **队列 :notes: [{title}]({url})**",
+				"duration": "⌛ Duration: ",
+				"live": "LIVE STREAM",
+				"songby": "💯 Song By: ",
+				"ql": "🔂 Queue length: "
+			},
+			"trackStart": {
+				"now": "现在播放",
+				"live": "直播"
+			},
+			"tracksAdd":{
+        "variable1":"Added Tracks 🩸 ",
+        "variable2":"⌛ Duration: ",
+        "variable3":"🔂 Queue length: ",
+        "variable4":"Requested by: {name}"
+      },
+      "playlistAdd":{
+        "variable1":":thumbsup: Added Playlist 🩸 : {title}",
+        "variable2":"⌛ Duration: ",
+        "variable3":"🔂 Queue length: ",
+        "variable4":"Requested by: {name}"
+      }
+		},
+		"pause": {
+			"variable1": "❌ The song is already paused!",
+			"variable2": "You can resume it with: `{prefix}resume`",
+			"variable3": "⏸️ Successfully paused song"
+		},
+		"resume": {
+			"variable1": "❌ The song is already resumed!",
+			"variable2": "You can pause it with: `!pause`"
+		},
+		"forceskip": {
+			"title": "⏹️ **Stopped playing and left your Channel!**",
+			"title2": "⏭ **Skipped the current Track!**",
+			"variable1": "Channel: <#{voiceChannel}>"
+		},
+		"loop": {
+			"errortitle": "❌ **Please add your Looping Method!**",
+			"errordescription": "`loop song` / `loop queue` / `loop off`",
+			"track": {
+				"disabled": "❌ **Disabled the Track Repeat mode!**",
+				"enabled": "👍 **Enabled the Track Repeat mode!**"
+			},
+			"queue": {
+				"disabled": "❌ **Disabled the Queue Repeat mode!**",
+				"enabled": "👍 **Enabled the Queue Repeat mode!**"
+			},
+			"andsong": "❌ **And disabled the Song Repeat Mode!**",
+			"andqueue": "❌ **And disabled the Queue Repeat Mode!**"
+		},
+		"nowplaying": {
+			"variable1": "`❌ There is nothing playing`",
+			"variable2": "`{state}` **{title}**`",
+			"variable3": "NOW PLAYING",
+			"variable4": "⌛ Progress: ",
+			"variable5": "⌛ Duration: ",
+			"variable6": "💯 Song By: ",
+			"variable7": "🔄 Queue length: ",
+			"variable8": "Requested by: {name}"
+		},
+		"seek": {
+			"variable1": "❌ You may seek from \\`0\\` - \\`{duration}\\`",
+			"variable2": "Seeked song to: {time}",
+			"variable3": "⌛ Progress: "
+		},
+		"filter": {
+			"variable1": "❌ You may select from \\`1\\` - \\`{end}\\`",
+			"variable2": "❌ You can select filter with \\`-filter 1\\` - \\`-filter {end}\\`",
+			"variable3": "{state} the **{name}** Filter",
+			"variable4": "Note: *It might take up to 5 seconds until you hear the Filter*",
+			"variable5": "❌ Filter unsupported for this track."
+		},
+		"search": {
+			"variable1": "❌ You need to give me a URL or a search term.",
+			"variable2": "❌ No result found",
+			"variable3": "Cancel the Searching Process",
+			"variable4": "Select all Songs you want to add",
+			"variable5": "Search-Result for: 🔎",
+			"variable6": "Search-Request by: ",
+			"variable7": "❌ Cancelled selection.",
+			"variable8": "Collector Ended",
+			"variable9": "Picked Songs:",
+			"cancel": "Cancel"
+		},
+		"jump": {
+			"variable1": "❌ **Please include to which track you want to Jump**",
+			"variable2": "❌ **It has to be a `Queue Number`**",
+			"variable3": "❌ **That Song is not in the Queue**!",
+			"variable4": "👍 **Jumped to the: \\`{num}\\` Song**"
+		},
+		"shuffle": {
+			"variable1": "🔀 **{type}** the Queue"
+		},
+		"disconnect": {
+			"variable1": "**I left the Channel: <#{voice}> because no interaction in 10 minutes**"
+		},
+		"queue": {
+			"variable1": "Queue for {name}",
+			"variable2": "**Now Playing : **",
+			"variable3": "LIVE STREAM",
+			"variable4": "** __UP NEXT__**",
+			"variable5": "❌ No tracks in the queue",
+			"variable6": "Queue for {name}  -  [ {length} Tracks ]",
+			"variable7": "** __CURRENT TRACK__**",
+			"variable8": "*Requested by: __{name}__*",
+			"variable9": "**\\` {left1}+. \\` *{left2} other Tracks ...***"
+		},
+		"leave": {
+			"variable1": "I left the Channel: <#{voice}>"
+		},
+		"ping": {
+			"variable1": ":stopwatch: | 延迟",
+			"variable2": "机器人延迟",
+			"variable3": "语音延迟"
+		},
+		"uptime": {
+			"variable1": "机器人已启动时间 : {d}天{h}小时{m}分钟{s}秒"
+		}
+	},
+	"common": {
+		"noplaying": "❌ There is nothing playing",
+		"error": "❌ Error: {msg}"
+	}
+}
